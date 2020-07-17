@@ -1,0 +1,6 @@
+CREATE TABLE dbo.BadlyNamedTable (
+	ID INT PRIMARY KEY,
+	FullName NVARCHAR(150) NULL,
+	DOB DATETIME NULL,
+	LikesDogs VARCHAR(1) NULL
+	);
